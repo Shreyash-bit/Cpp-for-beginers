@@ -7,7 +7,7 @@
 //============================================================================
 
 #include <iostream>
-#include <iomanip>
+#include <iomanip>  //imort iomanip library
 using namespace std;
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
 	for(int i = 0; i <= 5; i++)
 	{
 		//std::cout << "5 * "<< i <<"="<< std::setw(3);               // FOR LOOP
-	    //std::cout << 5*i << std::endl;
+	        //std::cout << 5*i << std::endl;
 		cout<<setw(3);
 		cout<<i<<endl;
 
